@@ -1,0 +1,46 @@
+body {
+  padding-top: 1px;
+  padding-bottom: 40px;
+  background-color:   #dfe3ee;
+}
+
+.max{
+    max-height: 500px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-lg {
+    max-width: 80%;
+}
+
+.img-thumbnail{
+  height: 160px;
+  width: 150px;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn2{
+  margin-top: -4px;
+  margin-bottom: 14px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 48px; /* Height of navbar */
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
